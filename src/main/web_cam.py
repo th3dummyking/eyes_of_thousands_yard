@@ -14,8 +14,9 @@ while True:
     if not ok:
         print("Lost the stream")
         break
-
-    results = model(frame, device="cpu", imgsz=416, verbose=False)
+    res = cv2.resize(frame, (300,300))
+    results = model(frame, device="cpu", imgsz=416, verbose=True)
+    
     cv2.imshow("YOLO phone cam", results[0].plot())
 
     if cv2.waitKey(1) & 0xFF == ord("q"):

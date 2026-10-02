@@ -15,6 +15,7 @@ update from previous log :
     
 ![alt text](/img/log/Screenshot%202026-10-02%20192637.png)
 
+![alt text](/img/log/image.png)
 
     will find ways to compress the pixel or change as i want next log:
 
