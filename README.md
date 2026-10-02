@@ -10,4 +10,4 @@ M1 : import yolo and test run
 source :    https://docs.ultralytics.com/vi/quickstart
 
 first to install model from online (using simple ver):  pip install -U ultralytics
-![alt text](image.png)
+![alt text](/img/image.png)
